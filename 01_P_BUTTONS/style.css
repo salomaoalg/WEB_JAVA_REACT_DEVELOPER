@@ -1,0 +1,33 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container{
+    display: flex;
+    gap:7vw
+}
+
+button{
+    padding: 1vw;
+    font-size: max(12px, 1.5vw);
+    font-weight: bold;
+    height: max(20vw, 17vw);
+    width: max(20vw, 17vw);
+    cursor:pointer;
+}
+
+@media(max-width: 1000px){
+    button{
+        padding: 1vw;
+        font-size: max(12px, 1.5vw);
+        font-weight: bold;
+        height: min(40vw, 37vw);
+        width: min(40vw, 37vw);
+        cursor:pointer;
+    }
+}
+
